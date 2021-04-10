@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecipeListComponent implements OnInit {
 
+  public recipes = [];
+  
   constructor() { }
 
   ngOnInit(): void {
