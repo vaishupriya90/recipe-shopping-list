@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipe-shopping-list';
+  displayPage = 'recipes';
+
+constructor(){}
+
+onNavigation(navLink : string){
+
+  this.displayPage = navLink;
+}
+
+  
 }
