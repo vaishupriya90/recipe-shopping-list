@@ -11,16 +11,14 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item"><a class="nav-link active"  aria-current="page" href="#" (click)="onClick('recipes')">Recipes</a></li>
                 <li class="nav-item"><a class="nav-link" href="#" (click)="onClick('shoppingList')">Shopping List</a></li>
-            </ul>
-            <ul class="navbar-nav navbar-right">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Manage Items
                       </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">save Data</a></li>
-                        <li><a class="dropdown-item" href="#">Fetch Data</a></li>
-                    </ul>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">save Data</a>
+                        <a class="dropdown-item" href="#">Fetch Data</a>
+                    </div>
                 </li>
             </ul>
         </div>
